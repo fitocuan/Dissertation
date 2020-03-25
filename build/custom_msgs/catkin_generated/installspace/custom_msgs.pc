@@ -1,0 +1,8 @@
+prefix=/home/fitocuan/essex_ws/install
+
+Name: custom_msgs
+Description: Description of custom_msgs
+Version: 0.0.0
+Cflags: -I/home/fitocuan/essex_ws/install/include
+Libs: -L/home/fitocuan/essex_ws/install/lib 
+Requires: roscpp rospy sensor_msgs std_msgs message_runtime geometry_msgs
